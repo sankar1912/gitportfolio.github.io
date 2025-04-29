@@ -7,7 +7,7 @@ import DashBoard from './Components/DashBoard';
 function App() {
   return (
     <div className="App">
-      <Router basename="/myportfolio">
+      <Router basename="/gitportfolio.github.io">
         <Routes>
           <Route path='/' element={<DashBoard />}/>
         </Routes>
